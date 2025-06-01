@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  color: #fff;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  background-color: #08995d;
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  width: 90%;
+  max-width: 450px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+img.icone {
+  display: block;
+  margin: 0 auto 20px auto; /* centraliza e dá espaçamento inferior */
+  width: 80px;
+  height: 80px;
+}
+
+
+section {
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  width: 70%;
+  max-width: 200px;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #ff4d4d;
+}
+
+button:active {
+  background-color: #b30000;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+#resultado, #tentativas, #dica {
+  margin-top: 8px;
+  font-weight: bold;
+}
+
